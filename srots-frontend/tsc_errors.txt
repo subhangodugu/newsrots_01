@@ -1,0 +1,33 @@
+﻿components/colleges/cp-portal/jobs/JobWizard.tsx(163,63): error TS7006: Parameter 'c' implicitly has an 'any' type.
+components/colleges/cp-portal/jobs/JobWizard.tsx(306,77): error TS7006: Parameter 'b' implicitly has an 'any' type.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(73,131): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(73,184): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(73,331): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(87,101): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(87,154): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobApplicantsTab.tsx(87,300): error TS18048: 'job.studentStatus' is possibly 'undefined'.
+components/colleges/student-portal/jobs/details/JobEligibleTab.tsx(34,46): error TS2339: Property 'searchEligibleStudents' does not exist on type '{ getComparisonHeaders: (file: File) => Promise<string[]>; compareResultFiles: (masterFile: File, resultFile: File, compareField?: string | undefined) => Promise<...>; ... 24 more ...; canCreateJob: (user: User) => boolean; }'.
+components/colleges/student-portal/jobs/details/JobEligibleTab.tsx(106,55): error TS18048: 'job.applicants' is possibly 'undefined'.
+components/global/FreeCoursesSection.tsx(231,51): error TS2345: Argument of type '{ platform: string; id?: string | undefined; name?: string | undefined; technology?: string | undefined; description?: string | undefined; link?: string | undefined; postedBy?: string | undefined; status?: CourseStatus | undefined; lastVerifiedAt?: string | undefined; }' is not assignable to parameter of type 'Partial<FreeCourse>'.
+  Types of property 'platform' are incompatible.
+    Type 'string' is not assignable to type 'CoursePlatform | undefined'.
+components/global/StudentDirectory.tsx(70,49): error TS2339: Property 'updateStudent' does not exist on type '{ searchStudents: (collegeId: string, filters: any) => Promise<Student[]>; createStudent: (student: Partial<Student>) => Promise<Student>; ... 39 more ...; getStudentApplicationTimeline: (jobId: string, studentId: string) => Promise<...>; }'.
+components/global/StudentDirectory.tsx(93,32): error TS2339: Property 'updateStudent' does not exist on type '{ searchStudents: (collegeId: string, filters: any) => Promise<Student[]>; createStudent: (student: Partial<Student>) => Promise<Student>; ... 39 more ...; getStudentApplicationTimeline: (jobId: string, studentId: string) => Promise<...>; }'.
+components/srots-portal/shared/team/TeamMemberFormModal.tsx(148,57): error TS2339: Property 'userId' does not exist on type 'User'.
+components/srots-portal/srots-admin/cms/CPUsersData.tsx(155,30): error TS2554: Expected 2 arguments, but got 1.
+pages/cp-user/CPUserPortal.tsx(168,44): error TS2322: Type '{ metrics: DashboardMetrics; }' is not assignable to type 'IntrinsicAttributes'.
+  Property 'metrics' does not exist on type 'IntrinsicAttributes'.
+pages/student/StudentPortal.tsx(350,7): error TS2783: 'skills' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(351,7): error TS2783: 'experience' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(352,7): error TS2783: 'projects' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(353,7): error TS2783: 'certifications' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(354,7): error TS2783: 'socialLinks' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(355,7): error TS2783: 'educationHistory' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(356,7): error TS2783: 'languages' is specified more than once, so this usage will be overwritten.
+pages/student/StudentPortal.tsx(357,7): error TS2783: 'publications' is specified more than once, so this usage will be overwritten.
+services/studentService.ts(402,25): error TS2345: Argument of type 'string[][]' is not assignable to parameter of type 'Blob'.
+  Type 'string[][]' is missing the following properties from type 'Blob': size, type, arrayBuffer, bytes, and 2 more.
+services/studentService.ts(464,23): error TS2345: Argument of type 'any[][]' is not assignable to parameter of type 'Blob'.
+  Type 'any[][]' is missing the following properties from type 'Blob': size, type, arrayBuffer, bytes, and 2 more.
+services/studentService.ts(473,23): error TS2345: Argument of type 'any[][]' is not assignable to parameter of type 'Blob'.
+  Type 'any[][]' is missing the following properties from type 'Blob': size, type, arrayBuffer, bytes, and 2 more.

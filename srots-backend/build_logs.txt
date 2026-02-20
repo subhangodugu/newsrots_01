@@ -1,0 +1,53 @@
+﻿[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.srots:srots-backend:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-actuator:jar -> duplicate declaration of version (?) @ line 162, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< com.srots:srots-backend >-----------------------
+[INFO] Building srots-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ srots-backend ---
+[INFO] Deleting C:\Users\subhan godugu\Downloads\srots-master\srots-master\srots-backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ srots-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ srots-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 175 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/JobMapper.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/JobMapper.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/impl/AnalyticsServiceImpl.java:[59,39] cannot find symbol
+  symbol:   method countByRole(com.srots.model.User.Role)
+  location: variable userRepo of type com.srots.repository.UserRepository
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.367 s
+[INFO] Finished at: 2026-02-20T19:19:13+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project srots-backend: Compilation failure
+[ERROR] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/impl/AnalyticsServiceImpl.java:[59,39] cannot find symbol
+[ERROR]   symbol:   method countByRole(com.srots.model.User.Role)
+[ERROR]   location: variable userRepo of type com.srots.repository.UserRepository
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

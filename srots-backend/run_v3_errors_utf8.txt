@@ -1,0 +1,315 @@
+﻿
+> Caused by: org.spri
+ngframework.beans.fac
+tory.UnsatisfiedDepen
+dencyException: 
+Error creating bean 
+with name 'analyticsS
+erviceImpl' defined 
+in file 
+[C:\Users\subhan godu
+gu\Downloads\srots-ma
+ster\srots-master\sro
+ts-backend\target\cla
+sses\com\srots\servic
+e\impl\AnalyticsServi
+ceImpl.class]: 
+Unsatisfied 
+dependency expressed 
+through constructor 
+parameter 2: Error 
+creating bean with 
+name 'applicationAnal
+yticsRepository' 
+defined in com.srots.
+repository.Applicatio
+nAnalyticsRepository 
+defined in @EnableJpa
+Repositories 
+declared on JpaReposi
+toriesRegistrar.Enabl
+eJpaRepositoriesConfi
+guration: Could not 
+create query for 
+public abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s(); Reason: 
+Validation failed 
+for query for method 
+public abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s()
+  	at org.springframe
+work.beans.factory.su
+pport.ConstructorReso
+lver.createArgumentAr
+ray(ConstructorResolv
+er.java:802)
+  	at org.springframe
+work.beans.factory.su
+pport.ConstructorReso
+lver.autowireConstruc
+tor(ConstructorResolv
+er.java:241)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.a
+utowireConstructor(Ab
+stractAutowireCapable
+BeanFactory.java:1356
+)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.c
+reateBeanInstance(Abs
+tractAutowireCapableB
+eanFactory.java:1193)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.d
+oCreateBean(AbstractA
+utowireCapableBeanFac
+tory.java:563)
+> Caused by: org.spri
+ngframework.beans.fac
+tory.BeanCreationExce
+ption: Error 
+creating bean with 
+name 'applicationAnal
+yticsRepository' 
+defined in com.srots.
+repository.Applicatio
+nAnalyticsRepository 
+defined in @EnableJpa
+Repositories 
+declared on JpaReposi
+toriesRegistrar.Enabl
+eJpaRepositoriesConfi
+guration: Could not 
+create query for 
+public abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s(); Reason: 
+Validation failed 
+for query for method 
+public abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s()
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.i
+nitializeBean(Abstrac
+tAutowireCapableBeanF
+actory.java:1775)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.d
+oCreateBean(AbstractA
+utowireCapableBeanFac
+tory.java:601)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractAutowir
+eCapableBeanFactory.c
+reateBean(AbstractAut
+owireCapableBeanFacto
+ry.java:523)
+  	at org.springframe
+work.beans.factory.su
+pport.AbstractBeanFac
+tory.lambda$doGetBean
+$0(AbstractBeanFactor
+y.java:325)
+  	at org.springframe
+work.beans.factory.su
+pport.DefaultSingleto
+nBeanRegistry.getSing
+leton(DefaultSingleto
+nBeanRegistry.java:23
+4)
+> Caused by: org.spri
+ngframework.data.repo
+sitory.query.QueryCre
+ationException: 
+Could not create 
+query for public 
+abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s(); Reason: 
+Validation failed 
+for query for method 
+public abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s()
+  	at org.springframe
+work.data.repository.
+query.QueryCreationEx
+ception.create(QueryC
+reationException.java
+:101)
+  	at org.springframe
+work.data.repository.
+core.support.QueryExe
+cutorMethodIntercepto
+r.lookupQuery(QueryEx
+ecutorMethodIntercept
+or.java:115)
+  	at org.springframe
+work.data.repository.
+core.support.QueryExe
+cutorMethodIntercepto
+r.mapMethodsToQuery(Q
+ueryExecutorMethodInt
+erceptor.java:99)
+  	at org.springframe
+work.data.repository.
+core.support.QueryExe
+cutorMethodIntercepto
+r.lambda$new$0(QueryE
+xecutorMethodIntercep
+tor.java:88)
+  	at java.base/java.
+util.Optional.map(Opt
+ional.java:260)
+> Caused by: java.lan
+g.IllegalArgumentExce
+ption: Validation 
+failed for query for 
+method public 
+abstract 
+java.lang.Long com.sr
+ots.repository.Applic
+ationAnalyticsReposit
+ory.countTotalStudent
+s()
+  	at org.springframe
+work.data.jpa.reposit
+ory.query.SimpleJpaQu
+ery.validateQuery(Sim
+pleJpaQuery.java:100)
+  	at org.springframe
+work.data.jpa.reposit
+ory.query.SimpleJpaQu
+ery.<init>(SimpleJpaQ
+uery.java:70)
+  	at org.springframe
+work.data.jpa.reposit
+ory.query.JpaQueryFac
+tory.fromMethodWithQu
+eryString(JpaQueryFac
+tory.java:60)
+  	at org.springframe
+work.data.jpa.reposit
+ory.query.JpaQueryLoo
+kupStrategy$DeclaredQ
+ueryLookupStrategy.re
+solveQuery(JpaQueryLo
+okupStrategy.java:170
+)
+  	at org.springframe
+work.data.jpa.reposit
+ory.query.JpaQueryLoo
+kupStrategy$CreateIfN
+otFoundQueryLookupStr
+ategy.resolveQuery(Jp
+aQueryLookupStrategy.
+java:252)
+> Caused by: java.lan
+g.IllegalArgumentExce
+ption: org.hibernate.
+query.SemanticExcepti
+on: Could not 
+interpret path 
+expression 'com.srots
+.model.User.Role.STUD
+ENT'
+  	at org.hibernate.i
+nternal.ExceptionConv
+erterImpl.convert(Exc
+eptionConverterImpl.j
+ava:143)
+  	at org.hibernate.i
+nternal.ExceptionConv
+erterImpl.convert(Exc
+eptionConverterImpl.j
+ava:167)
+  	at org.hibernate.i
+nternal.ExceptionConv
+erterImpl.convert(Exc
+eptionConverterImpl.j
+ava:173)
+  	at org.hibernate.i
+nternal.AbstractShare
+dSessionContract.crea
+teQuery(AbstractShare
+dSessionContract.java
+:802)
+  	at org.hibernate.i
+nternal.AbstractShare
+dSessionContract.crea
+teQuery(AbstractShare
+dSessionContract.java
+:707)
+> Caused by: org.hibe
+rnate.query.SemanticE
+xception: Could not 
+interpret path 
+expression 'com.srots
+.model.User.Role.STUD
+ENT'
+  	at org.hibernate.q
+uery.hql.internal.Bas
+icDotIdentifierConsum
+er$BaseLocalSequenceP
+art.resolvePathPart(B
+asicDotIdentifierCons
+umer.java:255)
+  	at org.hibernate.q
+uery.hql.internal.Bas
+icDotIdentifierConsum
+er.consumeIdentifier(
+BasicDotIdentifierCon
+sumer.java:91)
+  	at org.hibernate.q
+uery.hql.internal.Sem
+anticQueryBuilder.vis
+itSimplePath(Semantic
+QueryBuilder.java:501
+0)
+  	at org.hibernate.q
+uery.hql.internal.Sem
+anticQueryBuilder.vis
+itIndexedPathAccessFr
+agment(SemanticQueryB
+uilder.java:4959)
+  	at org.hibernate.q
+uery.hql.internal.Sem
+anticQueryBuilder.vis
+itGeneralPathFragment
+(SemanticQueryBuilder
+.java:4934)
+
+

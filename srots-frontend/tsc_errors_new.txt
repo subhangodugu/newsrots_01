@@ -1,0 +1,2 @@
+﻿components/colleges/student-portal/jobs/details/JobEligibleTab.tsx(106,55): error TS18048: 'job.applicants' is possibly 'undefined'.
+services/jobService.ts(1401,5): error TS1117: An object literal cannot have multiple properties with the same name.

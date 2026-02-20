@@ -1,0 +1,109 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.srots:srots-backend >-----------------------
+[INFO] Building srots-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ srots-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ srots-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ srots-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 175 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/JobMapper.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/subhan godugu/Downloads/srots-master/srots-master/srots-backend/src/main/java/com/srots/service/JobMapper.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ srots-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\subhan godugu\Downloads\srots-master\srots-master\srots-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ srots-backend ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ srots-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ srots-backend ---
+[INFO] Attaching agents: []
+20:11:18,997 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.4.11
+20:11:19,001 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Here is a list of configurators discovered as a service, by rank: 
+20:11:19,001 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+20:11:19,001 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+20:11:19,001 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+20:11:19,009 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 0 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:11:19,009 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:11:19,010 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:11:19,022 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+20:11:19,022 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+20:11:19,022 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 12 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:11:19,022 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:11:19,022 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:11:19,024 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:11:19,024 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+20:11:19,024 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 2 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:11:19,024 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Trying to configure with ch.qos.logback.classic.BasicConfigurator
+20:11:19,024 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
+20:11:19,024 |-INFO in ch.qos.logback.classic.BasicConfigurator@6ce86ce1 - Setting up default configuration.
+20:11:19,037 |-INFO in ch.qos.logback.classic.util.ContextInitializer@39de3d36 - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 13 milliseconds. ExecutionStatus=NEUTRAL
+20:11:19,367 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+20:11:19,367 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:11:19,374 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:11:19,386 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+20:11:19,386 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+20:11:19,394 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1424482154 - Will use gz compression
+20:11:19,394 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1424482154 - Will use the pattern logs/srots-backend-java.%d{yyyy-MM-dd}.%i.log for the active file
+20:11:19,406 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3fed2870 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/srots-backend-java.%d{yyyy-MM-dd}.%i.log.gz'.
+20:11:19,406 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3fed2870 - Roll-over at midnight.
+20:11:19,412 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3fed2870 - Setting initial period to 2026-02-20T14:36:06.552Z
+20:11:19,412 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3fed2870 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+20:11:19,412 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3fed2870 - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+20:11:19,414 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:11:19,416 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: logs/srots-backend-java.log
+20:11:19,416 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [logs/srots-backend-java.log]
+20:11:19,417 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+20:11:19,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@77128536 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+20:11:19,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+20:11:19,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+20:11:19,418 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@58326051 - End of configuration.
+20:11:19,418 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@32c4e8b2 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2026-02-20 20:11:19 INFO  c.srots.SrotsBackendJavaApplication - Starting SrotsBackendJavaApplication using Java 17.0.18 with PID 121424 (C:\Users\subhan godugu\Downloads\srots-master\srots-master\srots-backend\target\classes started by subhan godugu in C:\Users\subhan godugu\Downloads\srots-master\srots-master\srots-backend)
+2026-02-20 20:11:19 DEBUG c.srots.SrotsBackendJavaApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-02-20 20:11:19 INFO  c.srots.SrotsBackendJavaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-20 20:11:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-20 20:11:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 28 JPA repository interfaces.
+2026-02-20 20:11:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-02-20 20:11:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-02-20 20:11:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-20 20:11:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-02-20 20:11:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-20 20:11:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1720 ms
+2026-02-20 20:11:21 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-20 20:11:21 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-02-20 20:11:21 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-20 20:11:21 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-20 20:11:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-20 20:11:21 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@575c23f1
+2026-02-20 20:11:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-20 20:11:22 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-20 20:11:23 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-20 20:11:23 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-20 20:11:23 DEBUG com.srots.filter.JwtFilter - Filter 'jwtFilter' configured for use
+2026-02-20 20:11:25 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-20 20:11:25 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-02-20 20:11:25 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6afdc0d4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@26348a0d, org.springframework.security.web.context.SecurityContextHolderFilter@1b38d28e, org.springframework.security.web.header.HeaderWriterFilter@587011f0, org.springframework.web.filter.CorsFilter@d0bb60, org.springframework.security.web.authentication.logout.LogoutFilter@77f8dda2, com.srots.filter.JwtFilter@452506b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63662b68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27b0124a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ea4252, org.springframework.security.web.session.SessionManagementFilter@3ff3e6ed, org.springframework.security.web.access.ExceptionTranslationFilter@471142b7, org.springframework.security.web.access.intercept.AuthorizationFilter@361069db]
+2026-02-20 20:11:26 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-02-20 20:11:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2026-02-20 20:11:26 INFO  c.srots.SrotsBackendJavaApplication - Started SrotsBackendJavaApplication in 7.128 seconds (process running for 7.404)
